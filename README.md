@@ -42,20 +42,3 @@ Lancer l'application
 ```python
 python app.py
 ```
-
-Structure du projet
-.
-├── Deploiement/               # Dossier contenant le code source du déploiement
-│   ├── app.py                # Fichier principal pour lancer l'application Flask
-│   ├── templates/            # Dossier contenant les fichiers HTML
-│   │   └── index.html        # Interface utilisateur avec formulaire Bootstrap
-│   └── models/               # Dossier contenant le modèle enregistré
-│       └── pneumonia-x-ray-detection.h5    # Modèle de Deep Learning sauvegardé
-├── Data/                      # Dossier contenant les données d'entraînement
-│   ├── chest_xray/           # Dossier contenant les sous-dossiers pour les images d'entraînement
-│   │   ├── train/            # Images d'entraînement
-│   │   ├── val/              # Images de validation
-│   │   └── test/             # Images de test
-├── pneumonia-x-ray-detection.ipynb   # Notebook pour l'entraînement du modèle et l'analyse des résultats
-├── requirements.txt          # Liste des dépendances nécessaires
-└── README.md                 # Documentation du projet
